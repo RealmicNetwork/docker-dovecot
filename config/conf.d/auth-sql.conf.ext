@@ -4,7 +4,7 @@
 
 passdb {
   driver = sql
-  args = /etc/dovecot/dovecot-sql.conf.ext
+  args = /etc/dovecot/sql/dovecot-sql.conf.ext
 }
 
 # "prefetch" user database means that the passdb already provided the
